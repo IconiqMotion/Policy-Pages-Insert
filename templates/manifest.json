@@ -1,0 +1,21 @@
+{
+  "version": "2025-08-25",
+  "files": ["privacy.html","terms.html","shipping.html","returns.html","accessibility.html"],
+  "placeholders": [
+    "BUSINESS_NAME","SITE_URL","EMAIL","PHONE","ADDRESS",
+    "EFFECTIVE_DATE","INDEX_POLICY","COURT_DISTRICT",
+    "DELIVERY_HANDLE_DAYS","DELIVERY_PRICE_HOME","DELIVERY_DAYS_HOME",
+    "DELIVERY_PRICE_REGISTERED","DELIVERY_DAYS_REGISTERED",
+    "CANCEL_WITHIN_DAYS","REFUND_DAYS"
+  ],
+  "defaults": {
+    "INDEX_POLICY": "index,follow",
+    "CANCEL_WITHIN_DAYS": "14",
+    "REFUND_DAYS": "7",
+    "DELIVERY_HANDLE_DAYS": "2",
+    "DELIVERY_PRICE_HOME": "35",
+    "DELIVERY_DAYS_HOME": "3-5",
+    "DELIVERY_PRICE_REGISTERED": "20",
+    "DELIVERY_DAYS_REGISTERED": "5-7"
+  }
+}
