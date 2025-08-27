@@ -1,0 +1,11 @@
+Policy-Pages-Insert/
+├─ scripts/
+│  └─ deploy_policies.sh
+│  └─ policy_inject.php
+└─ templates/
+   ├─ manifest.json
+   ├─ privacy.php.tpl          # כולל סעיף עוגיות בתוך הדף
+   ├─ terms.php.tpl
+   ├─ accessibility.php.tpl
+   ├─ shipping.php.tpl         # ייפרס רק אם יש WooCommerce
+   └─ returns.php.tpl          # ייפרס רק אם יש WooCommerce

@@ -1,6 +1,12 @@
 {
-  "version": "2025-08-25",
-  "files": ["privacy.html","terms.html","shipping.html","returns.html","accessibility.html"],
+  "version": "2025-08-27",
+  "files": [
+    { "src": "privacy.php",        "slug": "privacy" },
+    { "src": "terms.php",          "slug": "terms" },
+    { "src": "accessibility.php",  "slug": "accessibility" },
+    { "src": "shipping.php",       "slug": "shipping", "requires": "woocommerce" },
+    { "src": "returns.php",        "slug": "returns",  "requires": "woocommerce" }
+  ],
   "placeholders": [
     "BUSINESS_NAME","SITE_URL","EMAIL","PHONE","ADDRESS",
     "EFFECTIVE_DATE","INDEX_POLICY","COURT_DISTRICT",
